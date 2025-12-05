@@ -1,0 +1,7 @@
+word
+hangman
+test
+text
+codes
+language
+apple

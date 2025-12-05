@@ -55,7 +55,6 @@ char * chooseWord()
     fclose(f); //We have to close the file after we are done using it
 
     //We can now randomly choose a word by seeding based on time and return that value by using modulo with the word count
-    srand(time(NULL));
     return words[rand() % count];
 }
 
